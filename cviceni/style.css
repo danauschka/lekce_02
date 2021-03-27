@@ -8,6 +8,8 @@ html {
     box-sizing: inherit;
 }
 
+
+
 /*
     background image: https://picsum.photos/1200/300
     primary color: hsla(160, 50%, 50%, 1);
@@ -15,3 +17,68 @@ html {
     dark: #003322;
     semi-transparent: #40bf9599;
 */
+
+body {
+    max-width: 60rem;
+    margin: auto;
+}
+
+nav {
+    text-align: center;
+}
+nav li {
+    display: inline;
+  }
+
+nav a {
+      background-color: lightgray;
+      padding: 1rem;
+      
+}
+
+nav a:hover {
+    background-color: lightpink;
+}
+
+header {
+    min-height: 300px;
+    padding: 2rem 4rem;
+    background-image: url('https://picsum.photos/1200/300') ;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+main img {
+    max-width: 100%;
+    height: auto;
+   
+      
+}
+main {
+    background-color: lightgrey;
+    padding: 1rem;
+}
+
+section {
+    display: flow-root;
+    background-color: #40bf95;
+    padding: 1rem;
+    border-bottom: 1px dotted #003322;
+    margin-left: -1rem ;
+    margin-right: -1rem;
+
+}
+
+section img {
+    width: 175px;
+    float: left; 
+    margin-right: 1rem;
+}
+
+h3 {
+    clear: both;
+}
+
